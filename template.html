@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur L.</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 14px;
+    }
+
+    body {
+      font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+      background-color: #faf9f7;
+      color: #2c2c2c;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 500px;
+      background-color: #faf9f7;
+      padding: 4rem 0;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #d4d0c8;
+      margin: 1.75rem 0;
+    }
+
+    /* Links */
+    a {
+      color: #4a5568;
+      text-decoration: underline;
+      text-decoration-color: #a0aec0;
+      text-underline-offset: 2px;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: #2c2c2c;
+      text-decoration-color: #2c2c2c;
+    }
+
+    /* Lists */
+    ul, ol {
+      margin-bottom: 1rem;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    li strong {
+      font-weight: 600;
+    }
+
+    /* Inline code */
+    code {
+      font-family: 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
+      font-size: 0.9em;
+      background-color: #f0ede8;
+      padding: 0.15em 0.35em;
+      border-radius: 3px;
+    }
+
+    /* Code blocks */
+    pre {
+      background-color: #f0ede8;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+    }
+
+    /* Blockquotes */
+    blockquote {
+      border-left: 3px solid #d4d0c8;
+      padding-left: 1rem;
+      margin-left: 0;
+      margin-bottom: 1rem;
+      color: #4a5568;
+      font-style: italic;
+    }
+
+    /* Bold & Italic */
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .page {
+        padding: 10% 8%;
+        min-height: calc(100vh - 2rem);
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+
+    /* Print-friendly */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .page {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    {{content}}
+  </article>
+</body>
+</html>

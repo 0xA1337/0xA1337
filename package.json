@@ -1,0 +1,14 @@
+{
+  "name": "0xa1337",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}
