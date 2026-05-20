@@ -11,8 +11,11 @@ doing frontend @ [Injective](https://injective.com)
 
 ---
 
-my current favorite model is gpt 5.5. opus feels dumb now
+my current favorite model is gpt 5.5.  
+opus has felt weaker for me on complex logic that involves edge cases and math.
 
 ---
 
-**email:** [0xa1337@proton.me](mailto:0xa1337@proton.me) / **telegram:** [a1337_eth](https://t.me/a1337_eth)
+**email:** [0xa1337@proton.me](mailto:0xa1337@proton.me) /
+**linkedin:** [Arthur L](https://www.linkedin.com/in/arthur-ljy/) /
+**telegram:** [a1337_eth](https://t.me/a1337_eth)
