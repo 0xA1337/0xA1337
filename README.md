@@ -11,8 +11,8 @@ doing frontend @ [Injective](https://injective.com)
 
 ---
 
-my current favorite model is gpt 5.5.  
-opus 4.8 has felt weaker for me on complex logic that involves edge cases and math.
+my current favorite model is gpt 5.6 Sol.  
+opus 4.8 has felt weaker for me on complex logic that involves edge cases and math. I didn't give Fable a shot since it got nerfed.
 
 ---
 
